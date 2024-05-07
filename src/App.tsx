@@ -1,5 +1,5 @@
 import './App.css'
-import { Button, SimpleGrid, Show, Grid, GridItem, Box, Flex, Heading } from '@chakra-ui/react'
+import { Button, SimpleGrid, Show, Grid, GridItem, Box, Heading } from '@chakra-ui/react'
 import data from './data/experiences'
 import ExperiencieContainer from './components/ExperienceContainer'
 import ExperienceCard from './components/ExperienceCard'
