@@ -20,5 +20,17 @@ export default {
             id: 5,
             name: 'sql'
         },
+        {
+            id: 6,
+            name: 'docker'
+        },
+        {
+            id: 7,
+            name: 'javascript'
+        },
+        {
+            id: 8,
+            name: 'react'
+        },
     ]
   }

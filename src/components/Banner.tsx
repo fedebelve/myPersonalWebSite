@@ -5,7 +5,7 @@ import yop from '/src/assets/yop.png'
 function Banner() {
     return (
     <AspectRatio maxH={'20rem'} ratio={4 / 3}>
-      <Box position="relative" width="100%" height="100%">
+      <Box>
         <video style={{ position: 'absolute', filter: 'brightness(40%)' }} loop muted autoPlay src={video} />
         <Box position="absolute" padding={'3.5rem'}>
           <Center>

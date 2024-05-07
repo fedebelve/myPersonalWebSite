@@ -1,20 +1,12 @@
 import { Button, Heading, HStack, List,Box ,ListItem, Text } from '@chakra-ui/react'
 import data from '../data/categories'
+import CategoryMap from '../entities/CategoryMap'
 
 interface Props{
     experiencesHandler: (name: string) => void
 }
 
 export const CategoryList = ({experiencesHandler}:Props) => {
-    const CategoryMap: {[key: string]: string} = { 
-        front: '🖼️',
-        back: '⚙️',
-        machineLearning: '🤖',
-        management: '👔',
-        bi: '📊',
-        course: '🧑‍🎓',
-        teacher: '👨‍🏫',
-    }
     return (
         <Box><Heading fontSize={'2xl'} marginBottom={'3'} marginTop={'4rem'}>Categories</Heading>
         <List>
