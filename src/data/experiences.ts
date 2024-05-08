@@ -4,17 +4,17 @@ export default {
             id: 1,
             organization: 'Pirámide Technologies',
             title: 'Desarrollador FullStack',
-            description: "Maecenas eu convallis mi. Suspendisse pretium sem id diam suscipit finibus. Donec eleifend venenatis erat, ut placerat nibh bibendum nec. Mauris lacinia lorem quis pulvinar bibendum. Sed rhoncus sed sapien sed malesuada. Cras et ultrices odio, nec luctus risus. Fusce maximus in lorem eu mattis. Vivamus pharetra urna consectetur neque sagittis iaculis.",
+            description: "Pirámide Tech is a company focused in create software for Insurance business. I worked as developer solving issues and bugfix.",
             start_date: '10/10/2010',
             end_date: '10/10/2010',
-            type: 'Programming',
-            categories: ['front', 'back',],
+            type: 'Jobs',
+            categories: ['frontend', 'backend',],
             tech_stack: ['php', 'html', 'css', 'sql' ],
             image_name: 'codigo'
         },
         {
-            id: 3,
-            organization: 'UTN FRBA',
+            id: 2,
+            organization: 'UTN FRBA - SubTIC',
             title: 'Coordinador Business Intelligence',
             description: `In charge of coordinating, planning and managing IT projects of the SubSecretary.
             Main project: lead of academic management system implementation for all
@@ -25,7 +25,7 @@ export default {
             years.`,
             start_date: '2017',
             end_date: 'March 2020',
-            type: 'Programming',
+            type: 'Jobs',
             categories: ['bi','management'],
             tech_stack: ['sql'],
             image_name: 'chart'
@@ -40,7 +40,7 @@ export default {
             datawarehouse, ETL develop and deploy. 2 team members.`,
             start_date: '2020',
             end_date: 'March 2023',
-            type: 'Programming',
+            type: 'Jobs',
             categories: ['bi', 'management'],
             tech_stack: ['sql'],
             image_name: 'chart'
@@ -61,14 +61,14 @@ export default {
             ● Asset inventory`,
             start_date: 'March 2023',
             end_date: 'Present',
-            type: 'Programming',
-            categories: ['management', 'back', 'front'],
+            type: 'Jobs',
+            categories: ['management', 'backend', 'frontend'],
             tech_stack: ['react','javascript', 'html', 'python', 'docker'],
             image_name: 'management'
         },
         {
             id: 6,
-            organization: '-',
+            organization: 'Freelance',
             title: 'As Freelancer',
             description: `Whatsapp bot research and development project integrated with the core
             management software of the company (made with Python and Django ).
@@ -77,25 +77,151 @@ export default {
             new features and bugfixes.`,
             start_date: 'March 2020',
             end_date: 'Present',
-            type: 'Programming',
-            categories: ['management', 'back', 'front'],
+            type: 'Jobs',
+            categories: ['management', 'backend', 'frontend'],
             tech_stack: ['javascript', 'html', 'python', 'sql'],
             image_name: 'codigo'
         },
         {
-            id: 7,
+            id: 4,
             organization: 'UTN FRBA',
             title: 'Final career project - Information System Engineer.',
             description: `Development with italian hospital. We develop an IA capable of detecting diabetic
             retinopathy through image scan. The images were uploaded to a platform,
             processed and it showed the grade of retinopathy.`,
             start_date: '2022',
-            end_date: 'Present',
-            type: 'Programming',
-            categories: ['machineLearning', 'back', 'front'],
+            end_date: '2022',
+            type: 'Jobs',
+            categories: ['machine learning', 'backend', 'frontend', ''],
             tech_stack: ['python', 'react'],
             image_name: 'ia'
-        }
-
+        },
+        {
+            id: 3,
+            organization: 'UTN FRBA - SubTIC',
+            title: 'Area Leader',
+            description: `  In charge of coordinating, planning and managing IT projects of the SubSecretary.
+            Main project: lead of academic management system implementation for all
+            university regional BsAs. The project consisted in four big phases iterated by
+            academic unity: domain understanding, development and software configuration,
+            users capacitations and start-up. The methodology used was agile with sprints to
+            measure and control the project evolution. 10 team members. Project duration: 2
+            years.`,
+            start_date: '2017',
+            end_date: 'March 2020',
+            type: 'Jobs',
+            categories: ['management'],
+            tech_stack: ['docker'],
+            image_name: 'management'
+        },
+        {
+            id: 9,
+            organization: 'UTN FRBA',
+            title: 'Information System Engineer',
+            description: ` Master of Engineering  `,
+            start_date: '2010',
+            end_date: 'March 2022',
+            type: 'Education',
+            categories: ['education', 'management'],
+            tech_stack: [],
+            image_name: 'management'
+        },
+        {
+            id: 10,
+            organization: 'Academia Neumen',
+            title: 'Project Management',
+            description: ` Project Management course. Content based on: Lifecicle, Metodoly, Agile, Risk Management, Planning, Scope, Cost, etc `,
+            start_date: '2022',
+            end_date: '2022',
+            type: 'Education',
+            categories: ['education', 'management'],
+            tech_stack: [],
+            image_name: 'management'
+        },
+        {
+            id: 11,
+            organization: 'SCEU UTN-FRBA',
+            title: 'ITIL ( Information Technology Infrastructure Library)',
+            description: `  `,
+            start_date: '2014',
+            end_date: '',
+            type: 'Education',
+            categories: ['education', 'management'],
+            tech_stack: [],
+            image_name: 'management'
+        },
+        {
+            id: 12,
+            organization: 'SCEU UTN-FRBA',
+            title: 'Machine Learning',
+            description: ` Basic concepts of most known Machine Learning Algoritms `,
+            start_date: '2020',
+            end_date: '',
+            type: 'Education',
+            categories: ['education', 'machine learning'],
+            tech_stack: ['python'],
+            image_name: 'ia'
+        },
+        {
+            id: 13,
+            organization: 'IT Master',
+            title: 'Web development',
+            description: ` Web development course focus on HTML, CSS, MySQL, PHP `,
+            start_date: '2011 March',
+            end_date: '2011 December',
+            type: 'Education',
+            categories: ['education','backend', 'frontend'],
+            tech_stack: ['sql', 'php', 'css', 'html'],
+            image_name: 'management'
+        },
+        {
+            id: 14,
+            organization: 'UBA - Capacitaciones',
+            title: 'High performance team leadership and management',
+            description: ` Course focused on lead teams and persons.  `,
+            start_date: '2012',
+            end_date: '2012',
+            type: 'Education',
+            categories: ['education'],
+            tech_stack: [],
+            image_name: 'management'
+        },
+        {
+            id: 15,
+            organization: 'Freelance',
+            title: 'My Personal Web',
+            description: ` Just a simple web like the one you are on.. 😀`,
+            start_date: '2024',
+            end_date: '2024',
+            type: 'Jobs',
+            categories: ['education', 'frontend'],
+            tech_stack: ['react', 'javascript', 'html', 'css'],
+            image_name: 'management'
+        },
+        {
+            id: -1,
+            organization: 'UTN FRBA - Systems Analysis',
+            title: 'Teacher Assistant',
+            description: ` Voluntary teacher assistant for Systems Analyst subject `,
+            start_date: '2012',
+            end_date: '2020',
+            type: 'Jobs',
+            categories: ['teacher'],
+            tech_stack: [],
+            image_name: 'management'
+        },
+        {
+            id: -2,
+            organization: 'UTN FRBA - Software Engineering',
+            title: 'Teacher Assistant',
+            description: ` Voluntary teacher assistant for Software Engineering subject `,
+            start_date: '2016',
+            end_date: '2021',
+            type: 'Jobs',
+            categories: ['teacher'],
+            tech_stack: [],
+            image_name: 'management'
+        },
     ]
   }
+
