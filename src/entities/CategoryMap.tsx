@@ -1,10 +1,10 @@
 const CategoryMap: {[key: string]: string} = { 
-    front: '🖼️',
-    back: '⚙️',
+    frontend: '🖼️',
+    backend: '⚙️',
     machineLearning: '🤖',
     management: '👔',
     bi: '📊',
-    course: '🧑‍🎓',
+    education: '🧑‍🎓',
     teacher: '👨‍🏫',
 }
 

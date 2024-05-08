@@ -7,13 +7,13 @@ export default {
         },
         {
             id: 2,
-            name: 'front',
-            icon_name: 'front'
+            name: 'frontend',
+            icon_name: 'frontend'
         },
         {
             id: 3,
-            name: 'back',
-            icon_name: 'back'
+            name: 'backend',
+            icon_name: 'backend'
         },
         {
             id: 4,
@@ -24,11 +24,6 @@ export default {
             id: 5,
             name: 'machine learning',
             icon_name: 'machineLearning'
-        },
-        {
-            id: 6,
-            name: 'course',
-            icon_name: 'course'
         },
         {
             id: 7,
