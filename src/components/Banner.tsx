@@ -1,6 +1,6 @@
 import { AspectRatio, Center, Stack, Heading, Highlight, Box, Image, Text } from "@chakra-ui/react"
 import video from '/src/assets/programming.mp4'
-import yop from '/src/assets/yop.png'
+import yop from '/src/assets/yop2.png'
 
 function Banner() {
     return (
