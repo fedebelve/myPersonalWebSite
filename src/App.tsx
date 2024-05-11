@@ -52,7 +52,7 @@ function App() {
             <TechList selectedTech={selectedTech} setSelectedTech={setSelectedTech}/>
           </GridItem> 
         </Show>
-        <GridItem width={'100rem'} area={'main'}>
+        <GridItem area={'main'}>
           <Box paddingLeft={10} paddingTop={10}>
           {/* <Flex flexDirection="column" justifyContent="start"> */}
             <Flex justifyContent={experiences.data.length>0?'space-between':'space-between'} marginBottom={5} marginRight={'5rem'}>
